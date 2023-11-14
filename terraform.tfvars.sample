@@ -1,0 +1,4 @@
+aws_region  = "us-east-1"
+aws_account = "" # Account for deploying the resources
+aws_role   = "deploy"
+aws_session_name = "roleSessionName"

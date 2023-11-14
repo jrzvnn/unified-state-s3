@@ -1,0 +1,8 @@
+terraform {
+  backend "s3" {
+    key      = "" 
+    region   = "us-east-1"
+    bucket   = ""
+    role_arn = "" # Role from root account with s3 permissions
+  }
+}
